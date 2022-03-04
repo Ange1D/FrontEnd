@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar pedido</title>
+</head>
+<body>
+
+    <img src="./assets/img/LogoTaconauta1.png" alt="logo taconauta" width="150px">
+
+    <h1>Aqui se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre Taconauta</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br>
+        <br>
+
+        <label for="mesa">Tu mesa es la numero</label><br>
+        <input type="number" id="mesa" name="mesa" placeholder="4">
+
+        <p>Para aqui o para llevar?</p>
+        <input type="radio" name="aquiollevar" id="aqui" value="Aqui">
+        <label for="aqui">Aqui</label>
+        <input type="radio" name="aquiollevar" id="llevar" value="Llevar">
+        <label for="llevar">Llevar</label><br>
+
+        <p>Tacos de que?</p>
+        <input type="checkbox" name="Mercurio" id="Mercurio" value="Mercurio">
+        <label for="Mercurio">Taco de Mercurio (Pastor)</label>
+        <input type="number" name="MercurioC" id="MercurioC" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" name="Venus" id="Venus">
+        <label for="Venus">Taco de Venus (Carnitas)</label>
+        <input type="number" name="VenusC" id="VenusC" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" name="Tierra" id="Tierra">
+        <label for="Tierra">Taco de Tierra (Bistec)</label>
+        <input type="number" name="TierraC" id="TierraC" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" name="Marte" id="Marte">
+        <label for="Marte">Taco de Marte (Carne asada)</label>
+        <input type="number" name="MarteC" id="MarteC" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" name="Jupiter" id="Jupiter">
+        <label for="">Taco de Jupiter (Arrachera)</label>
+        <input type="number" name="JupiterC" id="JupiterC" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" name="Saturno" id="Saturno">
+        <label for="Saturno">Taco de Saturno (Tripa)</label>
+        <input type="number" name="SaturnoC" id="SaturnoC" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" name="Urano" id="Urano">
+        <label for="">Taco de Urano (Suadero)</label>
+        <input type="number" name="UranoC" id="UranoC" placeholder="Cuantos?"><br>
+
+        <input type="checkbox" name="Neptuno" id="Neptuno">
+        <label for="">Taco de Neptuno (Maciza)</label>
+        <input type="number" name="NeptunoC" id="NeptunoC" placeholder="Cuantos?"><br>
+
+
+        <p>Y para tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="Pepsi">Pepsi</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Coca-cola">Coca-cola</option>
+        </select>
+
+        <br>
+
+        <select name="agua" id="agua">
+            <option value="Jamaica">Jamaica</option>
+            <option value="Jamaica">Horchata</option>
+        </select>
+
+
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+        <br>
+        <br>
+    </form>
+
+
+    
+</body>
+</html>
