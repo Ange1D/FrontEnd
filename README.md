@@ -13,11 +13,17 @@
  
    - [Taconauta](/02-HTML/practicas/Taconauta)
 
- - **Practica: Pasteleria**
+ - **Practica HTML: Pasteleria**
  
    - [Pasteleria](/02-HTML/practicas/Pasteleria)
 
- - **Practica: Vaccination**
+ - **Practica CSS: Vaccination**
  
    - [Vaccination](/03-CSS/practicas)
+
+ - **Practica JS: Pokedex**
+ 
+   - [Pokedex](https://github.com/Ange1D/Pokedex-JS)
+
+
 
