@@ -27,7 +27,7 @@
 
  - **Practica VUEJS: Pasteleria VUEX**
  
-   - [Pokedex](https://github.com/Ange1D/vuex-pasteleria)
+   - [Pasteleria VUEX](https://github.com/Ange1D/vuex-pasteleria)
 
 
 
